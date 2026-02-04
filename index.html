@@ -3,37 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TallyHo - Datenschutz & Support</title>
+    <title>TallyHo - Impressum, Datenschutz & AGB</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
-        h1 { color: #007AFF; border-bottom: 2px solid #007AFF; padding-bottom: 10px; }
-        h2 { color: #555; margin-top: 30px; }
-        .footer { margin-top: 50px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 20px; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            color: #1d1d1f; 
+            background-color: #f5f5f7; 
+        }
+        .card { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            margin-bottom: 20px; 
+        }
+        h1 { color: #000; font-size: 2.5em; font-weight: 700; margin-bottom: 10px; }
+        h2 { color: #007AFF; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
+        h3 { font-size: 1.1em; margin-top: 20px; margin-bottom: 5px; font-weight: 600; }
+        p, li { color: #424245; font-size: 1.05em; }
+        ul { padding-left: 20px; }
+        .footer { text-align: center; font-size: 0.9em; color: #86868b; margin-top: 40px; }
+        a { color: #007AFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>TallyHo Zeiterfassung</h1>
-    
-    <section>
-        <h2>Datenschutzerklärung</h2>
-        <p>Die App <strong>TallyHo</strong> wird vom machbarschafft e.V. bereitgestellt. Wir legen großen Wert auf Datensparsamkeit.</p>
-        <ul>
-            <li><strong>Keine Datenerhebung:</strong> Wir erheben, speichern oder übertragen keine personenbezogenen Daten an externe Server.</li>
-            <li><strong>Lokale Speicherung:</strong> Alle eingegebenen Namen und Zeitstempel werden ausschließlich lokal in der Datenbank auf Ihrem iPad gespeichert.</li>
-            <li><strong>Keine Analyse-Tools:</strong> Es findet keine Auswertung Ihres Nutzungsverhaltens durch uns oder Drittanbieter statt.</li>
-        </ul>
-    </section>
 
-    <section>
-        <h2>Support & Kontakt</h2>
-        <p>Haben Sie Fragen zur Nutzung von TallyHo oder benötigen Sie technische Unterstützung?</p>
-        <p><strong>Kontakt:</strong></p>
-        <p>machbarschafft e.V.<br>
-        Email: info@machbar-tuebingen.de</p>
-    </section>
+    <h1>TallyHo</h1>
+    <p style="font-size: 1.2em; color: #86868b;">Eine Initiative des machbarschafft e.V.</p>
+
+    <div class="card" id="impressum">
+        <h2>Impressum</h2>
+        <p><strong>machbarschafft e.V.</strong><br>
+        Hechinger Str. 74<br>
+        72072 Tübingen</p>
+        
+        <p><strong>Vertreten durch den Vorstand:</strong><br>
+        Konrad Küpfer</p>
+
+        <p><strong>Kontakt:</strong><br>
+        E-Mail: <a href="mailto:info@machbar-tuebingen.de">info@machbar-tuebingen.de</a><br>
+        Webseite: <a href="https://github.com/H Pony/tallyho-app">tallyho-app auf GitHub</a></p>
+
+        <p><strong>Registereintrag:</strong><br>
+        Status: Eingetragener Verein (e.V.)<br>
+        Registergericht: Amtsgericht Stuttgart</p>
+    </div>
+
+    <div class="card" id="datenschutz">
+        <h2>Datenschutzerklärung</h2>
+        <p>Die App <strong>TallyHo</strong> wurde mit dem Fokus auf maximale Datensparsamkeit entwickelt:</p>
+        <ul>
+            <li><strong>Keine Datenerhebung:</strong> Wir erheben, speichern oder übertragen keine personenbezogenen Daten an externe Server oder Dritte.</li>
+            <li><strong>Lokale Speicherung:</strong> Alle von Ihnen eingegebenen Namen und Zeitstempel werden ausschließlich lokal in der Datenbank auf Ihrem iPad gespeichert.</li>
+            <li><strong>Kein Tracking:</strong> Es findet keine Analyse Ihres Nutzungsverhaltens statt. Die App enthält keine Werbe-SDKs oder Analyse-Tools.</li>
+        </ul>
+        <p>Da die Daten nur lokal vorliegen, haben wir keinen Zugriff darauf. Wenn Sie die App löschen, werden auch alle lokal gespeicherten Daten unwiderruflich entfernt.</p>
+    </div>
+
+    <div class="card" id="agb">
+        <h2>Allgemeine Geschäftsbedingungen</h2>
+        
+        <h3>1. Geltungsbereich</h3>
+        <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Zeiterfassungs-App TallyHo (nachfolgend "App") durch den Nutzer. Mit der Nutzung der App erklärt der Nutzer sein Einverständnis mit diesen Bedingungen.</p>
+
+        <h3>2. Leistungsbeschreibung</h3>
+        <p>Die App dient der allgemeinen Erfassung und Verwaltung von Arbeitszeiten auf lokaler Basis. Die App stellt keine steuerliche, arbeitsrechtliche oder rechtliche Beratung dar.</p>
+
+        <h3>3. Haftungsausschluss</h3>
+        <p>3.1 Die Nutzung der App erfolgt auf eigenes Risiko. Die App wird ohne jegliche Gewährleistung hinsichtlich der Funktionalität, Genauigkeit, Vollständigkeit oder Eignung für bestimmte Zwecke bereitgestellt.</p>
+        <p>3.2 Wir übernehmen keine Haftung für Schäden, Verluste oder Nachteile, die direkt oder indirekt durch die Nutzung der App entstehen, einschließlich, aber nicht beschränkt auf arbeitsrechtliche, steuerliche oder sonstige rechtliche Konsequenzen.</p>
+        <p>3.3 Der Nutzer ist selbst dafür verantwortlich, die erfassten Daten korrekt zu verwenden und im Zweifelsfall fachlichen Rat von Steuerberatern oder Rechtsanwälten einzuholen.</p>
+
+        <h3>4. Datenschutz</h3>
+        <p>Die Erhebung und Verarbeitung personenbezogener Daten erfolgt gemäß den geltenden Datenschutzbestimmungen. Nähere Informationen finden sich im Abschnitt "Datenschutzerklärung" auf dieser Seite.</p>
+
+        <h3>5. Änderungen der AGB</h3>
+        <p>Wir behalten uns das Recht vor, diese AGB jederzeit zu ändern. Die fortgesetzte Nutzung der App nach einer Änderung gilt als Zustimmung zu den geänderten Bedingungen.</p>
+
+        <h3>6. Schlussbestimmungen</h3>
+        <p>6.1 Sollten einzelne Bestimmungen dieser AGB unwirksam oder undurchführbar sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</p>
+        <p>6.2 Es gilt das Recht der Bundesrepublik Deutschland.</p>
+    </div>
 
     <div class="footer">
-        <p>&copy; 2026 machbarschafft e.V. – Erstellt für eine einfache und sichere Zeiterfassung.</p>
+        &copy; 2026 machbarschafft e.V. | Tübingen<br>
+        Support: info@machbar-tuebingen.de
     </div>
+
 </body>
 </html>
